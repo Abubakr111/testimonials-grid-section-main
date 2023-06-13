@@ -1,0 +1,156 @@
+@font-face {
+    font-family: testi;
+    src: url(./Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: media;
+    src: url(./Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf);
+}
+@font-face {
+    font-family: lighte;
+    src: url(./Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf);
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    background-color: white;
+}
+h4, h3 {
+    font-family: lighte;
+}
+
+
+p {
+    font-family: testi;
+    font-size: 13px;
+}
+.bigdiv {
+    border-radius: 10px;
+    box-shadow: 0px 0px  10px rgb(107, 103, 103);
+    padding: 22px;
+    margin: 10px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+h4 {
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+span {
+    font-family: testi;
+    font-weight: lighter;
+}
+.container {
+    display: flex;
+}
+
+.main {
+    justify-content: center;
+}
+
+.div1 {
+    background: url(images/bg-pattern-quotation.svg) top right no-repeat, blueviolet;
+    color: white;
+    background-position: 400px 0px;
+    padding: 20px;
+    width: 500px;
+    height: 250px;
+}
+
+.div1 img, .div2 img {
+    border: 2px solid white;
+}
+
+.div2 {
+    background-color: rgb(85, 88, 88);
+    color: white;
+    width: 200px;
+    height: 250px;
+}
+
+.div3 {
+    background-color: white;
+    color: darkslategrey;
+    width: 200px;
+    height: 200px;
+}
+
+.div4 {
+    background-color: rgb(7, 26, 26);
+    color: white; 
+    width: 500px;
+    height: 250px;
+}
+
+.div4 img {
+    border: 2px solid purple;
+}
+
+.div5 {
+    width: 13.8%;
+    color: darkslategrey;
+    height: 50%;
+}
+
+
+@media only screen and (max-width: 375px) {
+    body {
+        overflow: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: block;
+        
+    }
+
+    .main {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mdcontain {
+        display: inline;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+    
+    .div1, .div4, .div5 {
+        width: 200px;
+    }
+
+    .div1 {
+        height: 250px;
+    }
+
+    .div2 {
+        height: 150px;
+    }
+
+    .div3 {
+        height: 130px;
+    }
+
+    h4 {
+        margin-left: 50px;
+        margin-top: -45px;
+    }       
+
+}
